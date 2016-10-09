@@ -11,7 +11,8 @@ window.onload = function() {
     for (var i = 0; i < hidden_articles_length; i++)
     {
         /* 
-        Each iteration we must show the first element in the array because each iteration results in the array becoming smaller by removing the first element.
+        Each iteration we must show the first element in the array because each iteration
+        results in the array becoming smaller by removing the first element.
         That is why we use [0] rather than [i]
         */
 
