@@ -1,21 +1,21 @@
 *
 {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body
 {
-	font-family: monospace;
+    font-family: monospace;
 }
 
 header
 {
 
-	padding: 0 20%;
+    padding: 0 20%;
     color: #a0add5;
-	background-color: #1c212b;
-	height: 20rem;
+    background-color: #1c212b;
+    height: 20rem;
 }
 
 footer
@@ -34,44 +34,44 @@ footer
 
 .question-container
 {
-	padding-top: 7.5rem;
+    padding-top: 7.5rem;
 }
 
 #question
 {
-	font-weight: 400;
+    font-weight: 400;
 }
 
 .answer-container
 {
-	padding: 0% 20%;
-	font-size: 1.1em;
+    padding: 0% 20%;
+    font-size: 1.1em;
 }
 
 #answer
 {
-	margin: 10% 0;
+    margin: 10% 0;
 }
 
 /* Question 1 */
 .technology
 {
-	margin: 0 0;
+    margin: 0 0;
 }
 
 .technology-title
 {
-	margin: 10% 0 2.5% 0;
+    margin: 10% 0 2.5% 0;
 }
 
 .technology-description
 {
-	font-size: 1.1em;
-	text-align: justify;
+    font-size: 1.1em;
+    text-align: justify;
 }
 
 .technology-image
 {
-	display: block;
-	margin: 5% auto;
+    display: block;
+    margin: 5% auto;
 }
