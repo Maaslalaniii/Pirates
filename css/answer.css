@@ -24,12 +24,35 @@ footer
     line-height: 1.7em;
 
     margin-top: 6rem;
-    padding: 4rem 0;
+    padding: 4rem 8rem;
 
-    text-align: center;
+    text-align: left;
 
     color: #a0add5;
     background-color: #1c212b;
+}
+
+.reference
+{
+    font-size: .6em;
+    display: inline-block;
+
+    color: #5b5e66;
+}
+
+.back
+{
+    transition: color .5s ease-in-out;
+    text-decoration: none;
+
+    color: #5b5e66;
+}
+
+.back:hover
+{
+    transition: color .5s ease-in-out;
+
+    color: #a0add5;
 }
 
 .question-container
@@ -58,6 +81,7 @@ footer
 .answer-container img
 {
     display: block;
+
     margin: 5% auto;
 }
 
