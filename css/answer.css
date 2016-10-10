@@ -11,11 +11,11 @@ body
 
 header
 {
-
+    height: 20rem;
     padding: 0 20%;
+
     color: #a0add5;
     background-color: #1c212b;
-    height: 20rem;
 }
 
 footer
@@ -44,13 +44,21 @@ footer
 
 .answer-container
 {
-    padding: 0% 20%;
     font-size: 1.1em;
+
+    margin: 7.5% 0;
+    padding: 0 20%;
 }
 
-#answer
+.answer
 {
-    margin: 10% 0;
+    margin-top: 5%;
+}
+
+.answer-container img
+{
+    display: block;
+    margin: 5% auto;
 }
 
 /* Question 1 */
@@ -67,11 +75,40 @@ footer
 .technology-description
 {
     font-size: 1.1em;
+
     text-align: justify;
 }
 
 .technology-image
 {
     display: block;
+
     margin: 5% auto;
+}
+
+blockquote
+{
+    font-size: 1em;
+
+    margin: 5% 0 21px;
+    padding: 10.5px 21px;
+
+    color: #6f6f6f;
+    border: 0 solid #999;
+    border-left: 5px solid #ddd;
+    border-left-width: 1px;
+
+    page-break-inside: avoid;
+}
+
+blockquote small
+{
+    font-size: 80%;
+    line-height: 1.4;
+
+    display: block;
+
+    padding-top: 2.5%;
+
+    color: #6f6f6f;
 }
