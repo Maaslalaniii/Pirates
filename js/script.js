@@ -1,5 +1,5 @@
-window.onload = function() {
-
+window.onload = function()
+{
     document.getElementById("load-articles").addEventListener('click', function ()
     {
         var hidden_articles = document.getElementsByClassName('hidden');
