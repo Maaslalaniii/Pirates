@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 body
 {
     font-family: monospace;
@@ -54,7 +53,7 @@ body
 
     border: 5px #4183d7 solid;
     border-radius: 100%;
-    background-image: url('../images/stevejobs.jpg');
+    background-image: url('../images/steve_jobs.jpg');
     background-size: 200px 200px;
 }
 
@@ -63,7 +62,7 @@ body
     transition: all .5s ease-in-out;
 
     border: 5px #26a65b solid;
-    background-image: url('../images/billgates.jpg');
+    background-image: url('../images/bill_gates.jpg');
 }
 
 #main

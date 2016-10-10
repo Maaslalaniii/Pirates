@@ -24,20 +24,27 @@ footer
     line-height: 1.7em;
 
     margin-top: 6rem;
-    padding: 4rem 8rem;
+    padding: 4rem 20%;
 
     text-align: left;
 
     color: #a0add5;
-    background-color: #1c212b;
+    border-top: #dadfe1 2px solid;
+    background-color: #fff;
 }
 
 .reference
 {
     font-size: .6em;
+
     display: inline-block;
 
     color: #5b5e66;
+}
+
+.hidden
+{
+    display: none;
 }
 
 .back
@@ -109,6 +116,38 @@ footer
 
     margin: 5% auto;
 }
+/* End of question 1 styles */
+
+/* Question 10 */
+.steps-heading
+{
+    margin-top: 5%;
+}
+
+
+
+.step
+{
+    margin: 2.5% 0;
+    margin-left: 5%;
+}
+
+.visual-step
+{
+    width: 100%;
+}
+
+.small-img
+{
+    width: 50%;
+}
+
+#divider
+{
+    margin: 5% 0;
+}
+
+/* End of question 10 styles */
 
 blockquote
 {
